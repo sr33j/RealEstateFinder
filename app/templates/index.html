@@ -1,0 +1,36 @@
+```html
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Welcome to Our Real Estate Finder</h1>
+  <p>Find your perfect property right now.</p>
+
+  <form action="/search" method="post">
+      <div class="form-group">
+          <label for="location">Location</label>
+          <input type="text" class="form-control" id="location" placeholder="Enter Location">
+      </div>
+      <div class="form-group">
+          <label for="propertyType">Property Type</label>
+        <select class="form-control" id="propertyType">
+            <option>House</option>
+            <option>Apartment</option>
+            <option>Land</option>
+            <option>Commercial</option>
+        </select>
+      </div>
+      <div class="form-group">
+          <label for="priceRange">Price Range</label>
+        <select class="form-control" id="priceRange">
+            <option>Below $100k</option>
+            <option>$100k-$200k</option>
+            <option>$200k-$300k</option>
+            <option>Above $300k</option>
+        </select>
+      </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+{% endblock %}
+```
+Please note that this code assumes that there is a form processing route ("/search") setup in your Flask application and that the base.html file includes necessary dependencies for form style (Bootstrap is assumed here).
