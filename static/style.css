@@ -1,0 +1,15 @@
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #343a40;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
