@@ -1,0 +1,29 @@
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: #666;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
